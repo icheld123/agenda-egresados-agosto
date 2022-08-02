@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Egresados</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="img/knowledge_graduation_cap_books_icon_182965.png">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet"/><link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="normalize_reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/vermas.js"></script>
+</head>
+<body>
+    <div class="overlay fade-out"></div>
+    <header class="header"></header>
+    <div id="contenedor">
+        <div id="main">
+            <h3>Estos son los eventos de investigación del mes de Agosto.</h3>
+            <div id="paginacion">
+                <a href="#" class="button" id="prev">Anterior</a>
+                <a href="#" class="button" id="next">Siguiente</a>
+            </div>
+            <h4 style="width: 80%; margin: auto;">¡Para ingresar al evento, sólo debes dar clic en el ícono de la página bajo cada evento!</h4>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page1">
+                    <div id="anuncio">
+                        <div id="contenido-anuncio">
+                            <p>ECACEN - PROSPECTA COLOMBIA 2022 - Convocatoria Presentación Artículos / Ponencias Semilleros</p>
+                            <p class="fecha">Fecha límite envío: 15 DE AGOSTO DE 2022</p>
+                            <p class="fecha">Fecha de desarrollo: Octubre 26, 27 y 28 de 2022</p>
+                            <div id="botones-evento">
+                              <a href="prospecta.unad.edu.co"
+                              target="_blank" id="botones" class="boton boton-amarillo d-block">Más información</a>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="pagination" id="contenedor-anuncios">
+                <div class="post" id="page2">
+        </div>
+    </div>
+    <footer class="footer"></footer>
+    <script  src="js/script.js"></script>
+    <script type="text/javascript">
+    $(function () {
+        $(".header").load("navbar.html");
+    });
+    $(function () {
+        $(".footer").load("footer.html");
+    });
+    </script>
+</body>
+</html>
+
